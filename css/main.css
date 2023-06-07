@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-cont,
+.footer-cont {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+header {
+  width: 80%;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-cont {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.first-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-section h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.first-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+
+/* 
+.second-cont {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.second-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+imgs > * {
+  flex: 1 1 auto;
+}
+
+.third-cont {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forth-cont {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forth-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
