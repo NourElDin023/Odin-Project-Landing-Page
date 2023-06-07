@@ -11,6 +11,10 @@
   justify-content: center;
   flex-direction: column;
 }
+.parent > * {
+  flex: 1 1 auto;
+  align-items: center;
+}
 
 .header-cont,
 .footer-cont {
@@ -20,6 +24,7 @@
   justify-content: center;
   padding: 8px 10px;
 }
+
 header {
   width: 80%;
   padding: 8px 10px;
@@ -126,6 +131,8 @@ border-radius: 10px;
   align-items: center;
   margin-top: 20px;
   padding: 20px;
+  flex-wrap: wrap;
+
 }
 
 .imgs img {
@@ -138,6 +145,7 @@ border-radius: 10px;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  flex: 1 1 20%;
 }
 
 .imgs p {
